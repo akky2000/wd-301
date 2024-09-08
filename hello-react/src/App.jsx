@@ -8,16 +8,33 @@ function App(){
     <div>
       <div>
         <h1>pending</h1>
-        <TaskCard title = "Build the webste with static content"/>
-        <TaskCard title="Add Blog"/>
+        <TaskCard title = "Build the webste with static content"
+        dueDate="10th april"
+        assigneeName="Rohit S"
+        
+        />
+        <TaskCard title="Add a Blog"
+        dueDate="22nd March"
+        assigneeName="Rohit M"
+        
+        
+        />
+        
+        
       
        
       </div>
       <div>
         <h1>Done</h1>
-        <TaskCard/>
-        <TaskCard/>
-      
+        <TaskCard title="Design the mockup"
+        completedAtDate="10th april"
+        assigneeName="Rohit M"
+        />
+        <TaskCard title="Get the approval from Principal"
+         completedAtDate="20th april"
+        assigneeName="Ajay S"
+        
+        />
     </div>
     </div>
   );
